@@ -174,10 +174,10 @@ class HomeController extends Controller
 
     	);
 
-    	$grade_3_variables_1 = array('awful', 'horrifying', 'frightful', 'nasty', 'horrible', 'gloomy', 'terrible', 'stressed');
+    	$grade_3_variables_1 = array('horrifying', 'frightful', 'nasty', 'horrible', 'gloomy', 'terrible', 'stressed');
     	$grade_3_variables_2 = array('awaiting', 'close', 'approaching', 'coming', 'ahead');
     	$grade_3_variables_3 = array('damazing', 'dangerous', 'negative', 'hazardous', 'injurious', 'evil', 'detrimental', 'mischievois');
-    	$grade_3_variables_4 = array('ugly', 'unpleasant', 'unlucky');
+    	$grade_3_variables_4 = array('awful', 'ugly', 'unpleasant', 'unlucky');
 
     	$grade_3_predictions = array(
     		'A ' . $grade_3_variables_1[rand(0, count($grade_3_variables_1) - 1)] . ' day is ' . $grade_3_variables_2[rand(0, count($grade_3_variables_2) - 1)] . ' so be safe and away from bad omens.',

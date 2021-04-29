@@ -11,4 +11,24 @@ This is a Horoscope-as-a-Service (HaaS) application built using Laravel and MySQ
 
 ## Deploying The Project
 
+- Clone this git repository.
 
+	git clone https://github.com/nirnoy112/haas.git
+
+- Go to project directory and install required dependencies.
+
+	cd haas
+
+- Create .env file, appliacation key and set database credentials in the .env file.
+
+	copy .env.example .env
+	php artisan key:generate
+
+- Run database migration and seeding.
+
+	php artisan migrate
+	php artisan db:seed
+
+- Finally, run the application on the server.
+
+	php artisan serve
