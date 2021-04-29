@@ -22,11 +22,13 @@ This is a Horoscope-as-a-Service (HaaS) application built using Laravel and MySQ
 - Create .env file, appliacation key and set database credentials in the .env file.
 
 	copy .env.example .env
+
 	php artisan key:generate
 
 - Run database migration and seeding.
 
 	php artisan migrate
+	
 	php artisan db:seed
 
 - Finally, run the application on the server.
